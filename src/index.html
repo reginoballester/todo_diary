@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Diary sample</title>
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<div class="diary container">
+			<div class="double-page row">
+				<div class="left-page col-xs-6">
+					<div id="header row">
+						<div class="col-xs-4 text-left week_days"></div>
+						<div class="col-xs-4 month_year"></div>
+						<div class="col-xs-4"></div>
+					</div>
+					<div class="container col-xs-11 page">
+						<div class="row row-content">
+							<div class="col-xs-2 text-center col-title"><strong>Day</strong></div>
+							<div class="col-xs-2 text-center col-title"><strong>Time</strong></div>
+							<div class="col-xs-8 text-center col-title"><strong>Description</strong></div>
+						</div>
+						<div id="page_left"></div>
+					</div>
+					<div class="col-xs-1 page_separator"></div>
+				</div>
+				<div class="right-page col-xs-6">
+					<div class="header row">
+						<div class="col-xs-4"></div>
+						<div class="col-xs-4 text-center month_year"></div>
+						<div class="col-xs-4 text-right week_days"></div>
+					</div>
+					<div class="col-xs-1 page_separator"></div>
+					<div class="container col-xs-11 page">
+						<div class="row">
+							<div class="col-xs-10 text-center col-title"><strong>Task</strong></div>
+							<div class="col-xs-2 text-center col-title"><strong>Done</strong></div>
+						</div>
+						<div id="page_right"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/nanoajax/0.4.3/nanoajax.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
+	<script src="js/app.js" type="module"></script>
+</html>

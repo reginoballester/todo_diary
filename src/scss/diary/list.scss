@@ -1,0 +1,41 @@
+$color-background: #c0d5e6;
+$color-border: #adadad;
+
+$border-stroke-table: 1px solid $color-border;
+
+.diary {
+    margin: 20px auto;
+    border: 15px solid $color-background;
+}
+
+.page {
+    margin: 10px auto;
+}
+
+.left-page {
+    border-right: 3px solid $color-border;
+}
+
+.circle {
+    background: $color-background;
+    width: 20px;
+    height: 20px;
+    margin: 40px auto;
+}
+
+.col-title {
+    border: $border-stroke-table;
+    background: #fcf8e3;
+}
+
+.table-cell {
+    border: $border-stroke-table;
+}
+
+.name-day {
+    font-size: 24px;
+}
+
+.num-day {
+    font-size: 37px;
+}

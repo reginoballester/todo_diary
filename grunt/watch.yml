@@ -1,0 +1,9 @@
+files:
+  - 'Gruntfile.js'
+  - 'src/scss/**/*.scss'
+  - 'src/js/**/*.js'
+tasks:
+  - 'sass:dist'
+options:
+  livereload:
+    true

@@ -1,0 +1,12 @@
+server:
+  options:
+    hostname:
+      'localhost'
+    port:
+      9000
+    livereload:
+      true
+    open:
+      true
+    base:
+      'src'
